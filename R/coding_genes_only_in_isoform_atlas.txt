@@ -1,0 +1,1 @@
+isoform	associated_gene	chrom	start	end
