@@ -17,4 +17,4 @@ We generated comprehensively full-length isoform annotation, “isoform atlas”
 
 ## How can users utilize Isoform Atlas?
 - User-friendly web app is available (link: )
-- Users can remapping own RNA-seq datasets to Isoform Atlas(GTF format, GRCh38) and investigate novel pathogenic isoforms
+- Users can remapping own RNA-seq datasets to Isoform Atlas(./data/isoform_atlas.gtf.gz, GRCh38) and investigate novel pathogenic isoforms
