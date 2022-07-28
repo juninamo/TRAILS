@@ -1,6 +1,9 @@
 #!/bin/bash
 #$ -S /bin/sh
 
+# download from 1000 Genomes on GRCh38 and convert ID of GEUVADIS
+## https://www.internationalgenome.org/data-portal/data-collection/grch38
+
 # QC, merge and get AF
 for pop in EUR YRI; do
 for seq_lib in {1..22}; do
