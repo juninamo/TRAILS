@@ -14,5 +14,7 @@ We generated comprehensively full-length isoform annotation, “isoform atlas”
 - Non-uniform insertion of repetitive elements in isoforms
 - RNA secondary structure contributes to translational efficiency 
 - Immune-mediated diseases GWAS variants harbor various kinds of QTL effects, including eQTL, sQTL, 3' untranslated region (3'UTR) alternative polyadenylation (APA) quantitative trait loci (3'aQTLs) (Li et al., 2021), and a novel concept of alternative transcription start site QTL(aTSS-QTL)
+
+## How can users utilize Isoform Atlas?
 - User-friendly web app is available (link: )
-- Users can remapping own RNA-seq datasets to Isoform Atlas and investigate novel pathogenic isoforms
+- Users can remapping own RNA-seq datasets to Isoform Atlas(GTF format, GRCh38) and investigate novel pathogenic isoforms
