@@ -17,7 +17,7 @@ We generated comprehensively full-length isoform annotation, “isoform atlas”
 
 ## How can users utilize Isoform Atlas?
 - User-friendly web app is available (link: )
-- Users can remapping own RNA-seq datasets to Isoform Atlas(./data/isoform_atlas.gtf.gz, GRCh38) and investigate novel pathogenic isoforms
+- Users can remapping own RNA-seq datasets to Isoform Atlas(isoform_atlas.gtf.gz, GRCh38) and investigate novel pathogenic isoforms
 
 ## colum of "isoform_info.txt"
 - isoform: isoform ID
@@ -53,14 +53,14 @@ We generated comprehensively full-length isoform annotation, “isoform atlas”
 - specific_cell_LR: specifically expressed cell in any of the long-read sequenced 29 cell-subsets
 - specificity_LRgroup: specifically expressed isoforms in any of the long-read sequenced 8 cell-groups based on expression and transcript ratio using ROKU function in TCC package
 - specific_cell_LRgroup: specifically expressed group in any of the long-read sequenced 8 cell-groups
-- •    CD4T: NaiveCD4,Th1,Th2,Th17,Tfh,Fra1.Treg,Fra2.aTreg,Fra3.Treg,LAG3.Treg,MemoryCD4,Thx
-- •    CD8T: NaiveCD8,CD8effector,CD8centralmem,CD8effectormem
-- •    B: NaiveB,unswmemoryB,swmemoryB,DNB,plasmablast"
-- •    DC: myeloidDC,plasmacytoidDC
-- •    NK: NK
-- •    monocyte: monocyteCD16,monocyteCD16minus,nonclassicalMonocyte,intermediateMonocyte
-- •    PBMC: PBMC
-- •    Neutrophil: Neutrophil
+- •	CD4T: NaiveCD4,Th1,Th2,Th17,Tfh,Fra1.Treg,Fra2.aTreg,Fra3.Treg,LAG3.Treg,MemoryCD4,Thx
+- •	CD8T: NaiveCD8,CD8effector,CD8centralmem,CD8effectormem
+- •	B: NaiveB,unswmemoryB,swmemoryB,DNB,plasmablast"
+- •	DC: myeloidDC,plasmacytoidDC
+- •	NK: NK
+- •	monocyte: monocyteCD16,monocyteCD16minus,nonclassicalMonocyte,intermediateMonocyte
+- •	PBMC: PBMC
+- •	Neutrophil: Neutrophil
 - specificity_SR_celltype: specifically expressed isoforms in any of the short-read sequenced nonstimulated cell-conditions based on both expression and transcript ratio using ROKU function in TCC package
 - specificity_SR_stim: specifically expressed isoforms in any of the short-read sequenced stimulated cell-conditions based on both expression and transcript ratio using ROKU function in TCC package
 - specific_cell_SR: specifically expressed cell in any of the short-read sequenced cell-subsets
