@@ -1,6 +1,6 @@
 # Isoform Atlas
 ## Full-length transcript annotation focusing on immune cells
-We generated comprehensively full-length isoform annotation, “isoform atlas”, by sequencing diverse immune cell subsets using a long-read sequencer. A wide-range of information, including TSS, ORF, inserted repetitive elements, and functional domains, was identified for all isoforms expressed in immune cell subsets. In addition, Integrated analysis using isoform atlas and publicly available short-read RNA-seq datasets identified a significant number of isoforms that were switched between immune-mediated diseases (IMDs) and controls. Furthermore, we also examined multiple kinds of QTL effects, including eQTL, sQTL, 3' untranslated region (3'UTR) alternative polyadenylation (APA) quantitative trait loci (3'aQTLs) (Li et al., 2021), and a novel concept of aTSS-QTL, of identified isoforms and revealed disease-relevant isoforms by integrating with GWAS. These results are open on the web (link). Isoform atlas will help bridge the gap between genomic and functional analysis and elucidate the pathogenesis of IMDs.
+We generated comprehensively full-length isoform annotation, “isoform atlas”, by sequencing diverse immune cell subsets using a long-read sequencer. A wide-range of information, including TSS, ORF, inserted repetitive elements, and functional domains, was identified for all isoforms expressed in immune cell subsets. In addition, Integrated analysis using isoform atlas and publicly available short-read RNA-seq datasets identified a significant number of isoforms that were switched between immune-mediated diseases (IMDs) and controls. Furthermore, we also examined multiple kinds of QTL effects, including eQTL, sQTL, 3' untranslated region (3'UTR) alternative polyadenylation (APA) quantitative trait loci (3'aQTLs) ([Li et al., 2021](https://www.nature.com/articles/s41588-021-00864-5), and a novel concept of aTSS-QTL, of identified isoforms and revealed disease-relevant isoforms by integrating with GWAS. These results are open on the web ([In Prep.]()). Isoform atlas will help bridge the gap between genomic and functional analysis and elucidate the pathogenesis of IMDs.
 
 **Reference: Inamo J et al. Isoform Atlas: the landscape of alternative splicing in immune cells. (in preparation)**
 
@@ -17,11 +17,11 @@ We generated comprehensively full-length isoform annotation, “isoform atlas”
 |  Fraction I  naive regulatory T cells |  FraI nTreg  |
 |  Fraction II  effector regulatory T cells |  FraII aTreg  |
 |  Fraction III  non-regulatory T cells |  FraIII non-Treg  |
-|  Low-Density Granulocytes regulatory T cells(Okamura T, et al. 2018) |  LAG3 Treg  |
+|  [Low-Density Granulocytes regulatory T cells](https://www.nature.com/articles/ncomms7329) |  LAG3 Treg  |
 |  T helper 1 cells |  Th1  |
 |  T helper 2 cells |  Th2  |
 |  T helper 17 cells |  Th17  |
-|  CXCR3 +/−CCR6− T cells(Nikitina IY, et al. 2018) |  X3lowR6negT  |
+|  [CXCR3 +/−CCR6− T cells](https://www.jimmunol.org/content/200/6/2090.long) |  X3lowR6negT  |
 |  T follicular helper cells |  Tfh  |
 |  CD8 T cells |  CD8  |
 |  Naïve CD8 T cells |  Naïve CD8  |
@@ -52,10 +52,10 @@ We generated comprehensively full-length isoform annotation, “isoform atlas”
 - Cell-type specific expression of isoforms are regulated through binding RBPs to long 3’UTR
 - Non-uniform insertion of repetitive elements in isoforms
 - RNA secondary structure contributes to translational efficiency 
-- Immune-mediated diseases GWAS variants harbor various kinds of QTL effects, including eQTL, sQTL, 3' untranslated region (3'UTR) alternative polyadenylation (APA) quantitative trait loci (3'aQTLs) (Li et al., 2021), and a novel concept of alternative transcription start site QTL(aTSS-QTL)
+- Immune-mediated diseases GWAS variants harbor various kinds of QTL effects, including eQTL, sQTL, 3'aQTLs, and a novel concept of alternative transcription start site QTL(aTSS-QTL)
 
 ## How can users utilize Isoform Atlas?
-- User-friendly web app is available (In Prep.)
+- User-friendly web app is available ([In Prep.]())
 - Users can remapping own RNA-seq datasets to Isoform Atlas(isoform_atlas.gtf.gz, GRCh38) and investigate novel pathogenic isoforms
 
 ## colum of "isoform_info.txt"
@@ -110,5 +110,5 @@ We generated comprehensively full-length isoform annotation, “isoform atlas”
 - cell_disease_sQTL: cell condition and phenotype of colocalization
 - coloc_5UTR_QTL: colocalization between alternative aTSS-QTL signal of the isoform and any of GWAS signal
 - cell_disease_5UTR_QTL: cell condition and phenotype of colocalization
-- coloc_3UTR_QTL: colocalization between alternative polyadenylation-QTL signal of the isoform and any of GWAS signal
+- coloc_3UTR_QTL: colocalization between 3'aQTL signal of the isoform and any of GWAS signal
 - cell_disease_3UTR_QTL: cell condition and phenotype of colocalization
