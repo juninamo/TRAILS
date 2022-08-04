@@ -70,7 +70,7 @@ We generated comprehensively full-length isoform annotation, “isoform atlas”
 - three_utr_length: length of 3’UTR region
 - polyA_motif: motif of poly A signal (“no-PAS” means no canonical motif)
 - kozak_score: kozak score [This is G c c A/G c c atg G. The most important nts are +4, -3 and -6.  Scoring these as +3 and the others as +1. Max score = 13]
-- avg_codon_freq: codon frequency averaged across CDS ([codon table](http://www.kazusa.or.jp/codon/cgi-bin/showcodon.cgi?species=9606&aa=1&style=N retrieved on 11/20/2014))
+- avg_codon_freq: codon frequency averaged across CDS ([codon table](http://www.kazusa.or.jp/codon/cgi-bin/showcodon.cgi?species=9606&aa=1&style=N) retrieved on 11/20/2014)
 - au_element_count: number of AU-stretches
 - au_element_frac: percentage of UTR covered by AREs 
 - max_au_length: longest A/U stretch
