@@ -16,7 +16,7 @@ We generated comprehensively full-length isoform annotation, “isoform atlas”
 - Immune-mediated diseases GWAS variants harbor various kinds of QTL effects, including eQTL, sQTL, 3' untranslated region (3'UTR) alternative polyadenylation (APA) quantitative trait loci (3'aQTLs) (Li et al., 2021), and a novel concept of alternative transcription start site QTL(aTSS-QTL)
 
 ## How can users utilize Isoform Atlas?
-- User-friendly web app is available (link: )
+- User-friendly web app is available (In Prep.)
 - Users can remapping own RNA-seq datasets to Isoform Atlas(isoform_atlas.gtf.gz, GRCh38) and investigate novel pathogenic isoforms
 
 ## colum of "isoform_info.txt"

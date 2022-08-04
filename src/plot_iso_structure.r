@@ -188,7 +188,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
                      aes(x = start, ymin = 0, ymax = height)) +
           ggh4x::facet_nested(factor(anno,levels=c("Isoform Atlas","repetitive elements","GENCODE","ATAC")) + factor(isoform,levels = isoform_list) ~ ., scales = "free", nest_line = TRUE) +
           theme(strip.text.y = element_text(angle = 0)) +
-          xlab("genomic position") +
+          xlab(paste0("genomic position [", region_chrom, "]")) +
           ylab("") +
           labs(title = paste0("isoform structure [", gene, "]")) +
           scale_y_continuous(breaks=NULL) +
@@ -241,7 +241,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
                      aes(x = start, ymin = 0, ymax = height)) +
           ggh4x::facet_nested(factor(anno,levels=c("Isoform Atlas","repetitive elements","GENCODE","ATAC")) + factor(isoform,levels = isoform_list) ~ ., scales = "free", nest_line = TRUE) +
           theme(strip.text.y = element_text(angle = 0)) +
-          xlab("genomic position") +
+          xlab(paste0("genomic position [", region_chrom, "]")) +
           ylab("") +
           labs(title = paste0("isoform structure [", gene, "]")) +
           scale_y_continuous(breaks=NULL) +
@@ -295,7 +295,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
                      aes(x = start, ymin = 0, ymax = height)) +
           ggh4x::facet_nested(factor(anno,levels=c("Isoform Atlas","repetitive elements","GENCODE","ATAC")) + factor(isoform,levels = isoform_list) ~ ., scales = "free", nest_line = TRUE) +
           theme(strip.text.y = element_text(angle = 0)) +
-          xlab("genomic position") +
+          xlab(paste0("genomic position [", region_chrom, "]")) +
           ylab("") +
           labs(title = paste0("isoform structure [", gene, "]")) +
           scale_y_continuous(breaks=NULL) +
@@ -345,7 +345,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
                      aes(x = start, ymin = 0, ymax = height)) +
           ggh4x::facet_nested(factor(anno,levels=c("Isoform Atlas","repetitive elements","GENCODE","ATAC")) + factor(isoform,levels = isoform_list) ~ ., scales = "free", nest_line = TRUE) +
           theme(strip.text.y = element_text(angle = 0)) +
-          xlab("genomic position") +
+          xlab(paste0("genomic position [", region_chrom, "]")) +
           ylab("") +
           labs(title = paste0("isoform structure [", gene, "]")) +
           scale_y_continuous(breaks=NULL) +
@@ -410,7 +410,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
                      aes(x = start, ymin = 0, ymax = height)) +
           ggh4x::facet_nested(factor(anno,levels=c("Isoform Atlas","repetitive elements","GENCODE","ATAC")) + factor(isoform,levels = isoform_list) ~ ., scales = "free", nest_line = TRUE) +
           theme(strip.text.y = element_text(angle = 0)) +
-          xlab("genomic position") +
+          xlab(paste0("genomic position [", region_chrom, "]")) +
           ylab("") +
           labs(title = paste0("isoform structure [", gene, "]")) +
           scale_y_continuous(breaks=NULL) +
@@ -458,7 +458,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
                      aes(x = start, ymin = 0, ymax = height)) +
           ggh4x::facet_nested(factor(anno,levels=c("Isoform Atlas","repetitive elements","GENCODE","ATAC")) + factor(isoform,levels = isoform_list) ~ ., scales = "free", nest_line = TRUE) +
           theme(strip.text.y = element_text(angle = 0)) +
-          xlab("genomic position") +
+          xlab(paste0("genomic position [", region_chrom, "]")) +
           ylab("") +
           labs(title = paste0("isoform structure [", gene, "]")) +
           scale_y_continuous(breaks=NULL) +
@@ -506,7 +506,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
                      aes(x = start, ymin = 0, ymax = height)) +
           ggh4x::facet_nested(factor(anno,levels=c("Isoform Atlas","repetitive elements","GENCODE","ATAC")) + factor(isoform,levels = isoform_list) ~ ., scales = "free", nest_line = TRUE) +
           theme(strip.text.y = element_text(angle = 0)) +
-          xlab("genomic position") +
+          xlab(paste0("genomic position [", region_chrom, "]")) +
           ylab("") +
           labs(title = paste0("isoform structure [", gene, "]")) +
           scale_y_continuous(breaks=NULL) +
@@ -550,7 +550,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
                      aes(x = start, ymin = 0, ymax = height)) +
           ggh4x::facet_nested(factor(anno,levels=c("Isoform Atlas","repetitive elements","GENCODE","ATAC")) + factor(isoform,levels = isoform_list) ~ ., scales = "free", nest_line = TRUE) +
           theme(strip.text.y = element_text(angle = 0)) +
-          xlab("genomic position") +
+          xlab(paste0("genomic position [", region_chrom, "]")) +
           ylab("") +
           labs(title = paste0("isoform structure [", gene, "]")) +
           scale_y_continuous(breaks=NULL) +
@@ -607,7 +607,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
                     fill = "forestgreen") +
           ggh4x::facet_nested(factor(anno,levels=c("Isoform Atlas","repetitive elements","GENCODE")) + factor(isoform,levels = isoform_list) ~ ., scales = "free", nest_line = TRUE) +
           theme(strip.text.y = element_text(angle = 0)) +
-          xlab("genomic position") +
+          xlab(paste0("genomic position [", region_chrom, "]")) +
           ylab("") +
           labs(title = paste0("isoform structure [", gene, "]")) +
           scale_y_continuous(breaks=NULL) +
@@ -649,7 +649,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
                     fill = "forestgreen") +
           ggh4x::facet_nested(factor(anno,levels=c("Isoform Atlas","repetitive elements","GENCODE")) + factor(isoform,levels = isoform_list) ~ ., scales = "free", nest_line = TRUE) +
           theme(strip.text.y = element_text(angle = 0)) +
-          xlab("genomic position") +
+          xlab(paste0("genomic position [", region_chrom, "]")) +
           ylab("") +
           labs(title = paste0("isoform structure [", gene, "]")) +
           scale_y_continuous(breaks=NULL) +
@@ -691,7 +691,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
                     fill = "forestgreen") +
           ggh4x::facet_nested(factor(anno,levels=c("Isoform Atlas","repetitive elements","GENCODE")) + factor(isoform,levels = isoform_list) ~ ., scales = "free", nest_line = TRUE) +
           theme(strip.text.y = element_text(angle = 0)) +
-          xlab("genomic position") +
+          xlab(paste0("genomic position [", region_chrom, "]")) +
           ylab("") +
           labs(title = paste0("isoform structure [", gene, "]")) +
           scale_y_continuous(breaks=NULL) +
@@ -729,7 +729,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
                     fill = "forestgreen") +
           ggh4x::facet_nested(factor(anno,levels=c("Isoform Atlas","repetitive elements","GENCODE")) + factor(isoform,levels = isoform_list) ~ ., scales = "free", nest_line = TRUE) +
           theme(strip.text.y = element_text(angle = 0)) +
-          xlab("genomic position") +
+          xlab(paste0("genomic position [", region_chrom, "]")) +
           ylab("") +
           labs(title = paste0("isoform structure [", gene, "]")) +
           scale_y_continuous(breaks=NULL) +
@@ -777,7 +777,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
                     aes(xmin = start, xmax = end, ymin = 4, ymax = 6, fill = domain)) +
           ggh4x::facet_nested(factor(anno,levels=c("Isoform Atlas","repetitive elements","GENCODE")) + factor(isoform,levels = isoform_list) ~ ., scales = "free", nest_line = TRUE) +
           theme(strip.text.y = element_text(angle = 0)) +
-          xlab("genomic position") +
+          xlab(paste0("genomic position [", region_chrom, "]")) +
           ylab("") +
           labs(title = paste0("isoform structure [", gene, "]")) +
           scale_y_continuous(breaks=NULL) +
@@ -814,7 +814,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
                     aes(xmin = start, xmax = end, ymin = 4, ymax = 6, fill = domain)) +
           ggh4x::facet_nested(factor(anno,levels=c("Isoform Atlas","repetitive elements","GENCODE")) + factor(isoform,levels = isoform_list) ~ ., scales = "free", nest_line = TRUE) +
           theme(strip.text.y = element_text(angle = 0)) +
-          xlab("genomic position") +
+          xlab(paste0("genomic position [", region_chrom, "]")) +
           ylab("") +
           labs(title = paste0("isoform structure [", gene, "]")) +
           scale_y_continuous(breaks=NULL) +
@@ -851,7 +851,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
                     fill = "gray30") +
           ggh4x::facet_nested(factor(anno,levels=c("Isoform Atlas","repetitive elements","GENCODE")) + factor(isoform,levels = isoform_list) ~ ., scales = "free", nest_line = TRUE) +
           theme(strip.text.y = element_text(angle = 0)) +
-          xlab("genomic position") +
+          xlab(paste0("genomic position [", region_chrom, "]")) +
           ylab("") +
           labs(title = paste0("isoform structure [", gene, "]")) +
           scale_y_continuous(breaks=NULL) +
@@ -884,7 +884,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
                     fill = "grey45") +
           ggh4x::facet_nested(factor(anno,levels=c("Isoform Atlas","repetitive elements","GENCODE")) + factor(isoform,levels = isoform_list) ~ ., scales = "free", nest_line = TRUE) +
           theme(strip.text.y = element_text(angle = 0)) +
-          xlab("genomic position") +
+          xlab(paste0("genomic position [", region_chrom, "]")) +
           ylab("") +
           labs(title = paste0("isoform structure [", gene, "]")) +
           scale_y_continuous(breaks=NULL) +
