@@ -17,11 +17,11 @@ We generated comprehensively full-length isoform annotation, “isoform atlas”
 |  Fraction I  naive regulatory T cells |  FraI nTreg  |
 |  Fraction II  effector regulatory T cells |  FraII aTreg  |
 |  Fraction III  non-regulatory T cells |  FraIII non-Treg  |
-|  Low-Density Granulocytes regulatory T cells |  LAG3 Treg  |
+|  Low-Density Granulocytes regulatory T cells(Okamura T, et al. 2018) |  LAG3 Treg  |
 |  T helper 1 cells |  Th1  |
 |  T helper 2 cells |  Th2  |
 |  T helper 17 cells |  Th17  |
-|  CXCR3 +/−CCR6− T cells |  X3lowR6negT  |
+|  CXCR3 +/−CCR6− T cells(Nikitina IY, et al. 2018) |  X3lowR6negT  |
 |  T follicular helper cells |  Tfh  |
 |  CD8 T cells |  CD8  |
 |  Naïve CD8 T cells |  Naïve CD8  |
@@ -70,7 +70,7 @@ We generated comprehensively full-length isoform annotation, “isoform atlas”
 - three_utr_length: length of 3’UTR region
 - polyA_motif: motif of poly A signal (“no-PAS” means no canonical motif)
 - kozak_score: kozak score [This is G c c A/G c c atg G. The most important nts are +4, -3 and -6.  Scoring these as +3 and the others as +1. Max score = 13]
-- avg_codon_freq: codon frequency averaged across CDS (codon table: http://www.kazusa.or.jp/codon/cgi-bin/showcodon.cgi?species=9606&aa=1&style=N retrieved on 11/20/2014)
+- avg_codon_freq: codon frequency averaged across CDS ([codon table](http://www.kazusa.or.jp/codon/cgi-bin/showcodon.cgi?species=9606&aa=1&style=N retrieved on 11/20/2014))
 - au_element_count: number of AU-stretches
 - au_element_frac: percentage of UTR covered by AREs 
 - max_au_length: longest A/U stretch
@@ -80,7 +80,7 @@ We generated comprehensively full-length isoform annotation, “isoform atlas”
 - unique_FE: no overlap with first exon of other isoforms
 - unique_LE: no overlap with last exon of other isoforms
 - te_rank: ranking according to translation efficiency (top10, others, and bottom 10: e.g., top10 means top 10% of translational efficiency). Translation efficiency is calculated using samples from 52 Yoruba (ribo-seq [GSE61742] and RNA-seq [GEUVADIS cohort, Nature 2013;501:506–511.]) 
-- InnateDB: immune genes annotated by InnateDB (https://www.innatedb.com/annotatedGenes.do?type=innatedb)
+- [InnateDB: immune genes annotated by InnateDB](https://www.innatedb.com/annotatedGenes.do?type=innatedb)
 - TF: transcription factors
 - transmembrane: transmembrane proteins
 - signal_peptide: isoforms containing signal peptide sequence
