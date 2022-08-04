@@ -10,7 +10,7 @@ We generated comprehensively full-length isoform annotation, “isoform atlas”
 
 ## sequenced subsets
 |  Subset name  |  Abbreviation  |
-| :--- | :---: |
+| :---: | :---: |
 |  CD4 T cells | CD4 |
 |  Naïve CD4 T cells |  Naïve CD4  |
 |  Memory CD4 cells |  Mem CD4  |
