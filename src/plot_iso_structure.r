@@ -161,7 +161,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
           rbind(.,atac[,shared]) %>%
           rbind(.,dummy_atac[,shared]) %>%
           ggplot(.) +
-          geom_segment(aes(x = start, xend = end, y = 5, yend = 5), size = 1, color = "gray45") +
+          geom_segment(aes(x = start, xend = end, y = 5, yend = 5), size = 0.5, linetype="dashed", color = "gray70") +
           geom_rect(data = . %>%
                       dplyr::filter(region == "exon"),
                     aes(xmin = start, xmax = end, ymin = 4.5, ymax = 5.5),
@@ -169,7 +169,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
           geom_rect(data = . %>%
                       dplyr::filter(region == "CDS"),
                     aes(xmin = start, xmax = end, ymin = 4, ymax = 6),
-                    fill = "gray30") +
+                    fill = "gray0") +
           geom_rect(data = . %>%
                       dplyr::filter(region == "domain"),
                     aes(xmin = start, xmax = end, ymin = 4, ymax = 6, fill = domain)) +
@@ -194,8 +194,8 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
           scale_y_continuous(breaks=NULL) +
           guides(color = FALSE) +
           theme_minimal() +
-          theme(strip.text.x=element_text(size=10, color="black", face="bold"),
-                strip.text.y=element_text(angle = 0, size=10, color="black", face="bold"),
+          theme(strip.text.x=element_text(size=9, color="black"),
+                strip.text.y=element_text(angle = 0, size=10, color="black"),
                 panel.grid = element_blank(),
                 legend.position = "bottom",
                 plot.title = element_text(size=10),
@@ -218,7 +218,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
           rbind(.,atac[,shared]) %>%
           rbind(.,dummy_atac[,shared]) %>%
           ggplot(.) +
-          geom_segment(aes(x = start, xend = end, y = 5, yend = 5), size = 1, color = "gray45") +
+          geom_segment(aes(x = start, xend = end, y = 5, yend = 5), size = 0.5, linetype="dashed", color = "gray70") +
           geom_rect(data = . %>%
                       dplyr::filter(region == "exon"),
                     aes(xmin = start, xmax = end, ymin = 4.5, ymax = 5.5),
@@ -247,8 +247,8 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
           scale_y_continuous(breaks=NULL) +
           guides(color = FALSE) +
           theme_minimal() +
-          theme(strip.text.x=element_text(size=10, color="black", face="bold"),
-                strip.text.y=element_text(angle = 0, size=10, color="black", face="bold"),
+          theme(strip.text.x=element_text(size=9, color="black"),
+                strip.text.y=element_text(angle = 0, size=10, color="black"),
                 panel.grid = element_blank(),
                 legend.position = "bottom",
                 plot.title = element_text(size=10),
@@ -271,7 +271,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
           rbind(.,atac[,shared]) %>%
           rbind(.,dummy_atac[,shared]) %>%
           ggplot(.) +
-          geom_segment(aes(x = start, xend = end, y = 5, yend = 5), size = 1, color = "gray45") +
+          geom_segment(aes(x = start, xend = end, y = 5, yend = 5), size = 0.5, linetype="dashed", color = "gray70") +
           geom_rect(data = . %>%
                       dplyr::filter(region == "exon"),
                     aes(xmin = start, xmax = end, ymin = 4.5, ymax = 5.5),
@@ -279,7 +279,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
           geom_rect(data = . %>%
                       dplyr::filter(region == "CDS"),
                     aes(xmin = start, xmax = end, ymin = 4, ymax = 6),
-                    fill = "gray30") +
+                    fill = "gray0") +
           geom_rect(data = . %>%
                       dplyr::filter(region == "repetitive elements"),
                     aes(xmin = start, xmax = end, ymin = 4.5, ymax = 5.5),
@@ -301,8 +301,8 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
           scale_y_continuous(breaks=NULL) +
           guides(color = FALSE) +
           theme_minimal() +
-          theme(strip.text.x=element_text(size=10, color="black", face="bold"),
-                strip.text.y=element_text(angle = 0, size=10, color="black", face="bold"),
+          theme(strip.text.x=element_text(size=9, color="black"),
+                strip.text.y=element_text(angle = 0, size=10, color="black"),
                 panel.grid = element_blank(),
                 legend.position = "bottom",
                 plot.title = element_text(size=10),
@@ -325,7 +325,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
           rbind(.,atac[,shared]) %>%
           rbind(.,dummy_atac[,shared]) %>%
           ggplot(.) +
-          geom_segment(aes(x = start, xend = end, y = 5, yend = 5), size = 1, color = "gray45") +
+          geom_segment(aes(x = start, xend = end, y = 5, yend = 5), size = 0.5, linetype="dashed", color = "gray70") +
           geom_rect(data = . %>%
                       dplyr::filter(region == "exon"),
                     aes(xmin = start, xmax = end, ymin = 4.5, ymax = 5.5),
@@ -351,8 +351,8 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
           scale_y_continuous(breaks=NULL) +
           guides(color = FALSE) +
           theme_minimal() +
-          theme(strip.text.x=element_text(size=10, color="black", face="bold"),
-                strip.text.y=element_text(angle = 0, size=10, color="black", face="bold"),
+          theme(strip.text.x=element_text(size=9, color="black"),
+                strip.text.y=element_text(angle = 0, size=10, color="black"),
                 panel.grid = element_blank(),
                 legend.position = "bottom",
                 plot.title = element_text(size=10),
@@ -387,7 +387,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
           rbind(.,atac[,shared]) %>%
           rbind(.,dummy_atac[,shared]) %>%
           ggplot(.) +
-          geom_segment(aes(x = start, xend = end, y = 5, yend = 5), size = 1, color = "gray45") +
+          geom_segment(aes(x = start, xend = end, y = 5, yend = 5), size = 0.5, linetype="dashed", color = "gray70") +
           geom_rect(data = . %>%
                       dplyr::filter(region == "exon"),
                     aes(xmin = start, xmax = end, ymin = 4.5, ymax = 5.5),
@@ -395,7 +395,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
           geom_rect(data = . %>%
                       dplyr::filter(region == "CDS"),
                     aes(xmin = start, xmax = end, ymin = 4, ymax = 6),
-                    fill = "gray30") +
+                    fill = "gray0") +
           geom_rect(data = . %>%
                       dplyr::filter(region == "domain"),
                     aes(xmin = start, xmax = end, ymin = 4, ymax = 6, fill = domain)) +
@@ -416,8 +416,8 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
           scale_y_continuous(breaks=NULL) +
           guides(color = FALSE) +
           theme_minimal() +
-          theme(strip.text.x=element_text(size=10, color="black", face="bold"),
-                strip.text.y=element_text(angle = 0, size=10, color="black", face="bold"),
+          theme(strip.text.x=element_text(size=9, color="black"),
+                strip.text.y=element_text(angle = 0, size=10, color="black"),
                 panel.grid = element_blank(),
                 legend.position = "bottom",
                 plot.title = element_text(size=10),
@@ -439,7 +439,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
           rbind(.,atac[,shared]) %>%
           rbind(.,dummy_atac[,shared]) %>%
           ggplot(.) +
-          geom_segment(aes(x = start, xend = end, y = 5, yend = 5), size = 1, color = "gray45") +
+          geom_segment(aes(x = start, xend = end, y = 5, yend = 5), size = 0.5, linetype="dashed", color = "gray70") +
           geom_rect(data = . %>%
                       dplyr::filter(region == "exon"),
                     aes(xmin = start, xmax = end, ymin = 4.5, ymax = 5.5),
@@ -464,8 +464,8 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
           scale_y_continuous(breaks=NULL) +
           guides(color = FALSE) +
           theme_minimal() +
-          theme(strip.text.x=element_text(size=10, color="black", face="bold"),
-                strip.text.y=element_text(angle = 0, size=10, color="black", face="bold"),
+          theme(strip.text.x=element_text(size=9, color="black"),
+                strip.text.y=element_text(angle = 0, size=10, color="black"),
                 panel.grid = element_blank(),
                 legend.position = "bottom",
                 plot.title = element_text(size=10),
@@ -486,7 +486,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
           rbind(.,atac[,shared]) %>%
           rbind(.,dummy_atac[,shared]) %>%
           ggplot(.) +
-          geom_segment(aes(x = start, xend = end, y = 5, yend = 5), size = 1, color = "gray45") +
+          geom_segment(aes(x = start, xend = end, y = 5, yend = 5), size = 0.5, linetype="dashed", color = "gray70") +
           geom_rect(data = . %>%
                       dplyr::filter(region == "exon"),
                     aes(xmin = start, xmax = end, ymin = 4.5, ymax = 5.5),
@@ -494,7 +494,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
           geom_rect(data = . %>%
                       dplyr::filter(region == "CDS"),
                     aes(xmin = start, xmax = end, ymin = 4, ymax = 6),
-                    fill = "gray30") +
+                    fill = "gray0") +
           geom_ribbon(data = . %>%
                         dplyr::filter(region == "ATAC"),
                       aes(x = start, ymin = 0, ymax = height, 
@@ -512,8 +512,8 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
           scale_y_continuous(breaks=NULL) +
           guides(color = FALSE) +
           theme_minimal() +
-          theme(strip.text.x=element_text(size=10, color="black", face="bold"),
-                strip.text.y=element_text(angle = 0, size=10, color="black", face="bold"),
+          theme(strip.text.x=element_text(size=9, color="black"),
+                strip.text.y=element_text(angle = 0, size=10, color="black"),
                 panel.grid = element_blank(),
                 legend.position = "bottom",
                 plot.title = element_text(size=10),
@@ -534,7 +534,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
           rbind(.,atac[,shared]) %>%
           rbind(.,dummy_atac[,shared]) %>%
           ggplot(.) +
-          geom_segment(aes(x = start, xend = end, y = 5, yend = 5), size = 1, color = "gray45") +
+          geom_segment(aes(x = start, xend = end, y = 5, yend = 5), size = 0.5, linetype="dashed", color = "gray70") +
           geom_rect(data = . %>%
                       dplyr::filter(region == "exon"),
                     aes(xmin = start, xmax = end, ymin = 4.5, ymax = 5.5),
@@ -556,8 +556,8 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
           scale_y_continuous(breaks=NULL) +
           guides(color = FALSE) +
           theme_minimal() +
-          theme(strip.text.x=element_text(size=10, color="black", face="bold"),
-                strip.text.y=element_text(angle = 0, size=10, color="black", face="bold"),
+          theme(strip.text.x=element_text(size=9, color="black"),
+                strip.text.y=element_text(angle = 0, size=10, color="black"),
                 panel.grid = element_blank(),
                 legend.position = "bottom",
                 plot.title = element_text(size=10),
@@ -589,7 +589,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
           rbind(.,domains[,shared]) %>%
           rbind(.,rm_tmp[,shared]) %>%
           ggplot(.) +
-          geom_segment(aes(x = start, xend = end, y = 5, yend = 5), size = 1, color = "gray45") +
+          geom_segment(aes(x = start, xend = end, y = 5, yend = 5), size = 0.5, linetype="dashed", color = "gray70") +
           geom_rect(data = . %>%
                       dplyr::filter(region == "exon"),
                     aes(xmin = start, xmax = end, ymin = 4.5, ymax = 5.5),
@@ -597,7 +597,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
           geom_rect(data = . %>%
                       dplyr::filter(region == "CDS"),
                     aes(xmin = start, xmax = end, ymin = 4, ymax = 6),
-                    fill = "gray30") +
+                    fill = "gray0") +
           geom_rect(data = . %>%
                       dplyr::filter(region == "domain"),
                     aes(xmin = start, xmax = end, ymin = 4, ymax = 6, fill = domain)) +
@@ -613,8 +613,8 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
           scale_y_continuous(breaks=NULL) +
           guides(color = FALSE) +
           theme_minimal() +
-          theme(strip.text.x=element_text(size=10, color="black", face="bold"),
-                strip.text.y=element_text(angle = 0, size=10, color="black", face="bold"),
+          theme(strip.text.x=element_text(size=9, color="black"),
+                strip.text.y=element_text(angle = 0, size=10, color="black"),
                 panel.grid = element_blank(),
                 legend.position = "bottom",
                 plot.title = element_text(size=10),
@@ -635,7 +635,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
           rbind(.,domains[,shared]) %>%
           rbind(.,rm_tmp[,shared]) %>%
           ggplot(.) +
-          geom_segment(aes(x = start, xend = end, y = 5, yend = 5), size = 1, color = "gray45") +
+          geom_segment(aes(x = start, xend = end, y = 5, yend = 5), size = 0.5, linetype="dashed", color = "gray45") +
           geom_rect(data = . %>%
                       dplyr::filter(region == "exon"),
                     aes(xmin = start, xmax = end, ymin = 4.5, ymax = 5.5),
@@ -655,8 +655,8 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
           scale_y_continuous(breaks=NULL) +
           guides(color = FALSE) +
           theme_minimal() +
-          theme(strip.text.x=element_text(size=10, color="black", face="bold"),
-                strip.text.y=element_text(angle = 0, size=10, color="black", face="bold"),
+          theme(strip.text.x=element_text(size=9, color="black"),
+                strip.text.y=element_text(angle = 0, size=10, color="black"),
                 panel.grid = element_blank(),
                 legend.position = "bottom",
                 plot.title = element_text(size=10),
@@ -676,7 +676,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
         g = rbind(coord_ia[,shared],coord_gencode_merged[,shared]) %>%
           rbind(.,rm_tmp[,shared]) %>%
           ggplot(.) +
-          geom_segment(aes(x = start, xend = end, y = 5, yend = 5), size = 1, color = "gray45") +
+          geom_segment(aes(x = start, xend = end, y = 5, yend = 5), size = 0.5, linetype="dashed", color = "gray70") +
           geom_rect(data = . %>%
                       dplyr::filter(region == "exon"),
                     aes(xmin = start, xmax = end, ymin = 4.5, ymax = 5.5),
@@ -684,7 +684,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
           geom_rect(data = . %>%
                       dplyr::filter(region == "CDS"),
                     aes(xmin = start, xmax = end, ymin = 4, ymax = 6),
-                    fill = "gray30") +
+                    fill = "gray0") +
           geom_rect(data = . %>%
                       dplyr::filter(region == "repetitive elements"),
                     aes(xmin = start, xmax = end, ymin = 4.5, ymax = 5.5),
@@ -697,8 +697,8 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
           scale_y_continuous(breaks=NULL) +
           guides(color = FALSE) +
           theme_minimal() +
-          theme(strip.text.x=element_text(size=10, color="black", face="bold"),
-                strip.text.y=element_text(angle = 0, size=10, color="black", face="bold"),
+          theme(strip.text.x=element_text(size=9, color="black"),
+                strip.text.y=element_text(angle = 0, size=10, color="black"),
                 panel.grid = element_blank(),
                 legend.position = "bottom",
                 plot.title = element_text(size=10),
@@ -718,7 +718,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
         g = rbind(coord_ia[,shared],coord_gencode_merged[,shared]) %>%
           rbind(.,rm_tmp[,shared]) %>%
           ggplot(.) +
-          geom_segment(aes(x = start, xend = end, y = 5, yend = 5), size = 1, color = "gray45") +
+          geom_segment(aes(x = start, xend = end, y = 5, yend = 5), size = 0.5, linetype="dashed", color = "gray45") +
           geom_rect(data = . %>%
                       dplyr::filter(region == "exon"),
                     aes(xmin = start, xmax = end, ymin = 4.5, ymax = 5.5),
@@ -735,8 +735,8 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
           scale_y_continuous(breaks=NULL) +
           guides(color = FALSE) +
           theme_minimal() +
-          theme(strip.text.x=element_text(size=10, color="black", face="bold"),
-                strip.text.y=element_text(angle = 0, size=10, color="black", face="bold"),
+          theme(strip.text.x=element_text(size=9, color="black"),
+                strip.text.y=element_text(angle = 0, size=10, color="black"),
                 panel.grid = element_blank(),
                 legend.position = "bottom",
                 plot.title = element_text(size=10),
@@ -763,7 +763,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
         g = rbind(coord_ia[,shared],coord_gencode_merged[,shared]) %>%
           rbind(.,domains[,shared]) %>%
           ggplot(.) +
-          geom_segment(aes(x = start, xend = end, y = 5, yend = 5), size = 1, color = "gray45") +
+          geom_segment(aes(x = start, xend = end, y = 5, yend = 5), size = 0.5, linetype="dashed", color = "gray70") +
           geom_rect(data = . %>%
                       dplyr::filter(region == "exon"),
                     aes(xmin = start, xmax = end, ymin = 4.5, ymax = 5.5),
@@ -771,7 +771,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
           geom_rect(data = . %>%
                       dplyr::filter(region == "CDS"),
                     aes(xmin = start, xmax = end, ymin = 4, ymax = 6),
-                    fill = "gray30") +
+                    fill = "gray0") +
           geom_rect(data = . %>%
                       dplyr::filter(region == "domain"),
                     aes(xmin = start, xmax = end, ymin = 4, ymax = 6, fill = domain)) +
@@ -783,8 +783,8 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
           scale_y_continuous(breaks=NULL) +
           guides(color = FALSE) +
           theme_minimal() +
-          theme(strip.text.x=element_text(size=10, color="black", face="bold"),
-                strip.text.y=element_text(angle = 0, size=10, color="black", face="bold"),
+          theme(strip.text.x=element_text(size=9, color="black"),
+                strip.text.y=element_text(angle = 0, size=10, color="black"),
                 panel.grid = element_blank(),
                 legend.position = "bottom",
                 plot.title = element_text(size=10),
@@ -804,7 +804,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
         g = rbind(coord_ia[,shared],coord_gencode_merged[,shared]) %>%
           rbind(.,domains[,shared]) %>%
           ggplot(.) +
-          geom_segment(aes(x = start, xend = end, y = 5, yend = 5), size = 1, color = "gray45") +
+          geom_segment(aes(x = start, xend = end, y = 5, yend = 5), size = 0.5, linetype="dashed", color = "gray45") +
           geom_rect(data = . %>%
                       dplyr::filter(region == "exon"),
                     aes(xmin = start, xmax = end, ymin = 4.5, ymax = 5.5),
@@ -820,8 +820,8 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
           scale_y_continuous(breaks=NULL) +
           guides(color = FALSE) +
           theme_minimal() +
-          theme(strip.text.x=element_text(size=10, color="black", face="bold"),
-                strip.text.y=element_text(angle = 0, size=10, color="black", face="bold"),
+          theme(strip.text.x=element_text(size=9, color="black"),
+                strip.text.y=element_text(angle = 0, size=10, color="black"),
                 panel.grid = element_blank(),
                 legend.position = "bottom",
                 plot.title = element_text(size=10),
@@ -840,7 +840,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
         print("plotting...")
         g = rbind(coord_ia[,shared],coord_gencode_merged[,shared]) %>%
           ggplot(.) +
-          geom_segment(aes(x = start, xend = end, y = 5, yend = 5), size = 1, color = "gray45") +
+          geom_segment(aes(x = start, xend = end, y = 5, yend = 5), size = 0.5, linetype="dashed", color = "gray70") +
           geom_rect(data = . %>%
                       dplyr::filter(region == "exon"),
                     aes(xmin = start, xmax = end, ymin = 4.5, ymax = 5.5),
@@ -848,7 +848,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
           geom_rect(data = . %>%
                       dplyr::filter(region == "CDS"),
                     aes(xmin = start, xmax = end, ymin = 4, ymax = 6),
-                    fill = "gray30") +
+                    fill = "gray0") +
           ggh4x::facet_nested(factor(anno,levels=c("Isoform Atlas","repetitive elements","GENCODE")) + factor(isoform,levels = isoform_list) ~ ., scales = "free", nest_line = TRUE) +
           theme(strip.text.y = element_text(angle = 0)) +
           xlab(paste0("genomic position [", region_chrom, "]")) +
@@ -857,8 +857,8 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
           scale_y_continuous(breaks=NULL) +
           guides(color = FALSE) +
           theme_minimal() +
-          theme(strip.text.x=element_text(size=10, color="black", face="bold"),
-                strip.text.y=element_text(angle = 0, size=10, color="black", face="bold"),
+          theme(strip.text.x=element_text(size=9, color="black"),
+                strip.text.y=element_text(angle = 0, size=10, color="black"),
                 panel.grid = element_blank(),
                 legend.position = "bottom",
                 plot.title = element_text(size=10),
@@ -877,7 +877,7 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
         print("plotting...")
         g = rbind(coord_ia[,shared],coord_gencode_merged[,shared]) %>%
           ggplot(.) +
-          geom_segment(aes(x = start, xend = end, y = 5, yend = 5), size = 1, color = "gray45") +
+          geom_segment(aes(x = start, xend = end, y = 5, yend = 5), size = 0.5, linetype="dashed", color = "gray70") +
           geom_rect(data = . %>%
                       dplyr::filter(region == "exon"),
                     aes(xmin = start, xmax = end, ymin = 4.5, ymax = 5.5),
@@ -890,8 +890,8 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
           scale_y_continuous(breaks=NULL) +
           guides(color = FALSE) +
           theme_minimal() +
-          theme(strip.text.x=element_text(size=10, color="black", face="bold"),
-                strip.text.y=element_text(angle = 0, size=10, color="black", face="bold"),
+          theme(strip.text.x=element_text(size=9, color="black"),
+                strip.text.y=element_text(angle = 0, size=10, color="black"),
                 panel.grid = element_blank(),
                 legend.position = "bottom",
                 plot.title = element_text(size=10),
@@ -911,7 +911,8 @@ plot_iso_structure <- function(gene = NULL, extra = 5e03, repeat_draw = TRUE, at
 
 
 plot_iso_usage <- function(gene = NULL,
-                           method = c("ratio","sum")){
+                           method = c("ratio","sum"),
+                           legend = c("top","bottom","right","left","none")){
   library(ggplot2)
   library(ggsci)
   library(matrixStats)
@@ -982,16 +983,16 @@ plot_iso_usage <- function(gene = NULL,
     theme_minimal(base_size = 20) +
     scale_fill_manual(values = c(unique(c(ggsci::pal_nejm("default", alpha = .7)(8)[2:1],
                                           ggsci::pal_npg("nrc", alpha = .7)(10)))[1:(nrow(tmp)-1)],"grey45")) +
-    theme(strip.text.x=element_text(size=9, color="black", face="bold"),
-          strip.text.y=element_text(angle = 0, size=9, color="black", face="bold"),
+    theme(strip.text.x=element_text(size=9, color="black"),
+          strip.text.y=element_text(angle = 0, size=9, color="black"),
           panel.grid = element_blank(),
-          legend.position = "right",
+          legend.position = legend,
           plot.title = element_text(size=15),
-          axis.title.x = element_text(size=10),
-          axis.title.y = element_text(size =10),
-          axis.text.x = element_text(size = 10),
-          axis.text.y = element_text(size = 10),
-          legend.text =  element_text(size = 8), 
+          axis.title.x = element_text(size=20),
+          axis.title.y = element_text(size =20),
+          axis.text.x = element_text(size = 20),
+          axis.text.y = element_text(size = 20),
+          legend.text =  element_text(size = 20), 
           legend.key.size = grid::unit(0.8, "lines"),
           legend.title = element_text(size = 0, hjust = 0),
           legend.direction = "vertical", legend.box = "horizontal")
