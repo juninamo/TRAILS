@@ -11,7 +11,6 @@ We generated comprehensively full-length isoform annotation, “isoform atlas”
 ## sequenced subsets
 |  Subset name  |  Abbreviation  |
 | :---: | :---: |
-|  CD4 T cells | CD4 |
 |  Naïve CD4 T cells |  Naïve CD4  |
 |  Memory CD4 cells |  Mem CD4  |
 |  Fraction I  naive regulatory T cells |  FraI nTreg  |
@@ -23,24 +22,20 @@ We generated comprehensively full-length isoform annotation, “isoform atlas”
 |  T helper 17 cells |  Th17  |
 |  [CXCR3 +/−CCR6− T cells](https://www.jimmunol.org/content/200/6/2090.long) |  X3lowR6negT  |
 |  T follicular helper cells |  Tfh  |
-|  CD8 T cells |  CD8  |
 |  Naïve CD8 T cells |  Naïve CD8  |
 |  Effector CD8 cells |  Eff CD8  |
 |  Central Memory CD8 T cells |  CM CD8  |
 |  Effector Memory CD8 T cells |  EM CD8  |
-|  B cells |  B  |
 |  Naïve B cells |  Naïve B  |
 |  Switched memory B cells |  SM B  |
 |  Unswitched memory B cells | USM B  |
 |  Double Negative B cells | DN B  |
 |  Plasmablasts | Plasmablast  |
 |  Natural Killer cells | NK  |
-|  Monocytes | Mono  |
 |  Classical Monocytes | CL Mono  |
 |  NonClassical Monocytes | NC Mono  |
 |  Intermediate Monocytes | Int Mono  |
 |  CD16 positive Monocytes | CD16p Mono  |
-|  Dendric cells | DC  |
 |  Myeloid Dendric cells | mDC  |
 |  Plasmacytoid Dendric cells | pDC  |
 |  Neutroohils | Neu  |
