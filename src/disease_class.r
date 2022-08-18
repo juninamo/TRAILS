@@ -32,7 +32,7 @@ CNS = c(
   # "PASS_AlzheimersPaternal_Marioni2018",
   # "PASS_AlzheimersProxy_Marioni2018",
   "PASS_Alzheimers_Jansen2019",
-  "PASS_AnorexiaNervosa_Duncan_2017",
+  # "PASS_AnorexiaNervosa_Duncan_2017",
   "PASS_Autism_Grove2019",
   # "PASS_BDSCZ_Ruderfer2018",
   # "PASS_BIP_Stahl2019",
