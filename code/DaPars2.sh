@@ -40,10 +40,10 @@ ln -s /path/to/*/BAM/*_STAR_PB29/*.wig tools/DaPars2/data/wig/
 ### 1. cluster isoforms by identical coding-sequence using VSEARCH
 ### 2. make bed file including isoforms predicted coding by all SQANTI3,CPAT and RNAsamba 
 
-python tools/DaPars2/src/DaPars_Extract_Anno_fiveUTR.py \
--b /path/to/SQANTI3_output/GRCh38_gencode38_classification.filtered_lite.coding.bed \
--s tools/DaPars2/data/read2gene.txt \
--o tools/DaPars2/data/LR_extracted_5UTR.bed
+# python tools/DaPars2/src/DaPars_Extract_Anno_fiveUTR.py \
+# -b /path/to/SQANTI3_output/GRCh38_gencode38_classification.filtered_lite.coding.bed \
+# -s tools/DaPars2/data/read2gene.txt \
+# -o tools/DaPars2/data/LR_extracted_5UTR.bed
 
 python tools/DaPars2/src/DaPars_Extract_Anno.py \
 -b /path/to/SQANTI3_output/GRCh38_gencode38_classification.filtered_lite.coding.bed \
@@ -53,13 +53,13 @@ python tools/DaPars2/src/DaPars_Extract_Anno.py \
 
 mkdir -p tools/DaPars2/data/result
 
-for chr in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 X Y; do
-echo -e "chr${chr}"
-cd /path/to/tools/DaPars2/data
-python ../src/Dapars2_Multi_Sample_5UTR.py \
-config_5UTR.txt \
-chr${chr}
-done
+# for chr in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 X Y; do
+# echo -e "chr${chr}"
+# cd /path/to/tools/DaPars2/data
+# python ../src/Dapars2_Multi_Sample_5UTR.py \
+# config_5UTR.txt \
+# chr${chr}
+# done
 
 for chr in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 X Y; do
 echo -e "chr${chr}"
