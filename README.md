@@ -1,4 +1,4 @@
-# Isoform Atlas
+# Immune Isoform Atlas
 ## Full-length transcript annotation focusing on immune cells
 We generated comprehensively full-length isoform annotation, “isoform atlas”, by sequencing diverse immune cell subsets using a long-read sequencer. A wide-range of information, including TSS, ORF, inserted repetitive elements, and functional domains, was identified for all isoforms expressed in immune cell subsets. In addition, Integrated analysis using isoform atlas and publicly available short-read RNA-seq datasets identified a significant number of isoforms that were switched between immune-mediated diseases (IMDs) and controls. Furthermore, we also examined multiple kinds of QTL effects, including eQTL, sQTL, and 3' untranslated region (3'UTR) alternative polyadenylation (APA) quantitative trait loci (3'aQTLs) of identified isoforms and revealed disease-relevant isoforms by integrating with GWAS. These results are open on the web ([In Prep.]()). Isoform atlas will help bridge the gap between genomic and functional analysis and elucidate the pathogenesis of IMDs.
 
