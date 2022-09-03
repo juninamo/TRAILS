@@ -43,15 +43,14 @@ We generated comprehensively full-length isoform annotation, “isoform atlas”
 
 
 ## Highlights
-- Isoform Atlas with a full-length sequence of 29 immune cell types.
-- Cell-type specific expression of isoforms are regulated through binding RBPs to long 3’UTR
-- Non-uniform insertion of repetitive elements in isoforms
-- RNA secondary structure contributes to translational efficiency 
-- Immune-mediated diseases GWAS variants harbor various kinds of QTL effects, including eQTL, sQTL, 3'aQTLs, and a novel concept of alternative transcription start site QTL(aTSS-QTL)
+- An atlas of full-length isoforms for 29 immune cell types.
+- Transposable elements comprise a major fraction of isoform diversity.
+- Alternative 3’UTR usage contributes to cell-type specific expression of isoforms.
+- Integrated analysis of genetic and transcriptomic data with the atlas reveals unknown pathogenesis of diseases.
 
 ## How can users utilize Isoform Atlas?
 - User-friendly web app is available ([In Prep.]())
-- Users can remapping own RNA-seq datasets to Isoform Atlas(isoform_atlas.gtf.gz, GRCh38) and investigate novel pathogenic isoforms
+- Users can remapping own RNA-seq datasets to Immune Isoform Atlas(isoform_atlas.gtf.gz, GRCh38) and investigate expression of isoforms in interested phenotypes.
 
 ## colum of "isoform_info.txt"
 - isoform: isoform ID
