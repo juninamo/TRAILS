@@ -16,35 +16,6 @@ setDTthreads(1)
 getDTthreads()
 
 
-read2gene <- fread("/path/to/GRCh38_all-sr-correct_counts_matrix.tsv") %>%
-  .$ids %>%
-  stringr::str_split(., pattern = "_", simplify = TRUE) %>%
-  as.data.frame() %>%
-  dplyr::filter(grepl("ENSG", .$V2)) %>%
-  dplyr::mutate(gene_id = stringr::str_split(V2, pattern = "\\.", simplify = TRUE)[,1]) %>%
-  dplyr::inner_join(., fread("/path/to/Homo_sapiens.GRCh38.101_gene_annotation_table.txt"), by="gene_id") %>%
-  dplyr::select(V1, GeneSymbol) %>%
-  dplyr::rename(GENEID = GeneSymbol,query_name = V1)
-
-# gene information 
-gene_coords <- read.table("/path/to/Homo_sapiens.GRCh38.101_gene_annotation_table.txt", header = TRUE)
-ref_gr <- GRanges(
-  seqnames = paste0("chr",str_split(gene_coords$Chromosome, pattern = ":", simplify = TRUE)[,1]),
-  ranges = IRanges(str_split(gene_coords$Chromosome, pattern = ":", simplify = TRUE)[,2], names = gene_coords$GeneSymbol),
-  strand = Rle(gene_coords$Strand),
-  class = Rle(gene_coords$Class))
-ref_df <- as.data.frame(ref_gr, row.names = NULL)
-ref_df$gene <- names(ref_gr)
-colnames(ref_df) <- gsub("seqnames","chrom",colnames(ref_df))
-genepos <- data.frame(
-  GENEID = gene_coords$GeneSymbol,
-  chr = paste0("chr",str_split(gene_coords$Chromosome, pattern = ":", simplify = TRUE)[,1]),
-  s1 = as.integer(str_split(str_split(gene_coords$Chromosome, pattern = ":", simplify = TRUE)[,2], pattern = "-", simplify = TRUE)[,1]),
-  s2 = as.integer(str_split(str_split(gene_coords$Chromosome, pattern = ":", simplify = TRUE)[,2], pattern = "-", simplify = TRUE)[,2])
-)
-
-
-
 ## EGA
 IID_tr <- read.table("/path/to/EGA/sample_Info.txt",header = TRUE)
 
@@ -128,8 +99,7 @@ for (p in 1:length(POP)){
 }
 
 # normalized expression
-isopos_c = fread("/path/to/eQTL/kallisto/geneInfo.txt") %>% 
-  merge(read2gene,.,by.x="query_name",by.y="transcript_id") %>%
+genepos = fread("/path/to/eQTL/StringTie_PB29/geneInfo.txt") %>% 
   as.data.frame()
 psi_c <- fread(paste0("/path/to/eQTL/kallisto/quantile-rank-normalized_gene_TPM_matrix.txt")) %>%
   dplyr::rename(gid = V1) %>%

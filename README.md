@@ -1,14 +1,14 @@
 # Immune Isoform Atlas
 ## Full-length transcript annotation focusing on immune cells
-We generated comprehensively full-length isoform annotation, “isoform atlas”, by sequencing diverse immune cell subsets using a long-read sequencer. A wide-range of information, including TSS, ORF, inserted repetitive elements, and functional domains, was identified for all isoforms expressed in immune cell subsets. In addition, Integrated analysis using isoform atlas and publicly available short-read RNA-seq datasets identified a significant number of isoforms that were switched between immune-mediated diseases (IMDs) and controls. Furthermore, we also examined multiple kinds of QTL effects, including eQTL, sQTL, and 3' untranslated region (3'UTR) alternative polyadenylation (APA) quantitative trait loci (3'aQTLs) of identified isoforms and revealed disease-relevant isoforms by integrating with GWAS. These results are open on the web ([In Prep.]()). Isoform atlas will help bridge the gap between genomic and functional analysis and elucidate the pathogenesis of IMDs.
+Alternative splicing events are a major causal mechanism for complex traits, but they have been understudied due to the limitation of short-read sequencing. Here, we generated a comprehensive full-length isoform annotation of human immune cells, Immune Isoform Atlas, by long-read sequencing for 29 cell subsets. Our atlas contained a number of unannotated transcripts and isoforms such as a read-through transcript of TOMM40-APOE. We profiled functional characteristics of isoforms including encoded domains, inserted repetitive elements, and translational efficiency, and we showed that repetitive elements significantly contributed to the diversity of unannotated isoforms. Some of the isoforms are expressed in a cell-type specific manner, whose alternative 3'UTR usage mainly explained their specificity. Further, we identified a number of disease-associated isoforms by isoform switch analysis and by integration of several quantitative trait loci analyses with genome-wide association study data. Our findings will promote the elucidation of the pathomechanism of diseases via alternative splicing. These results are open on the web ([In Prep.]()).
 
-**Reference: Inamo J et al. Immune Isoform Atlas: the landscape of alternative splicing in immune cells. (in preparation)**
+**Reference: Inamo J et al. Immune Isoform Atlas: Landscape of alternative splicing in human immune cells. (in preparation)**
 
 ![image](./images/project_image.png)
 **Figure 1. Study design**
 
 
-## sequenced subsets
+## sequenced cell-subsets
 |  Subset name  |  Abbreviation  |
 | :---: | :---: |
 |  Naïve CD4 T cells |  Naïve CD4  |
@@ -50,7 +50,7 @@ We generated comprehensively full-length isoform annotation, “isoform atlas”
 
 ## How can users utilize Isoform Atlas?
 - User-friendly web app is available ([In Prep.]())
-- Users can remapping own RNA-seq datasets to Immune Isoform Atlas(isoform_atlas.gtf.gz, GRCh38) and investigate expression of isoforms in interested phenotypes.
+- Users can remapping own RNA-seq datasets to Immune Isoform Atlas (isoform_atlas.gtf.gz, GRCh38) and investigate expression of isoforms in interested phenotypes.
 
 ## colum of "isoform_info.txt"
 - isoform: isoform ID
@@ -75,7 +75,7 @@ We generated comprehensively full-length isoform annotation, “isoform atlas”
 - unique_LE: no overlap with last exon of other isoforms
 - translational_efficiency_rank: ranking according to translation efficiency (top10, others, and bottom 10: e.g., top10 means top 10% of translational efficiency). Translation efficiency is calculated using samples from 52 Yoruba (ribo-seq [GSE61742] and RNA-seq [GEUVADIS cohort, Nature 2013;501:506–511.]) 
 - [immune_genes: immune genes annotated by InnateDB](https://www.innatedb.com/annotatedGenes.do?type=innatedb)
-- TF: transcription factors
+- TF: [transcription factors](http://humantfs.ccbr.utoronto.ca/download.php)
 - transmembrane: transmembrane proteins
 - signal_peptide: isoforms containing signal peptide sequence
 - IDR: isoforms containing intrinsically disordered protein region
