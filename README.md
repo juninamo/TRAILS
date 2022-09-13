@@ -1,6 +1,6 @@
 # Immune Isoform Atlas
 ## Full-length transcript annotation focusing on human immune cells
-Alternative splicing events are a major causal mechanism for complex traits, but they have been understudied due to the limitation of short-read sequencing. Here, we generated a comprehensive full-length isoform annotation of human immune cells, Immune Isoform Atlas, by long-read sequencing for 29 cell subsets. Our atlas contained a number of unannotated transcripts and functional characteristics of transcripts including encoded domains, inserted repetitive elements, cell-type specific expression, and translational efficiency. Further, we identified a number of disease-associated isoforms by isoform-switch analysis and by integration of several quantitative trait loci analyses with genome-wide association study data. These results are open on [the web](http://gfdweb.tmd.ac.jp:3838/).
+Alternative splicing events are a major causal mechanism for complex traits, but they have been understudied due to the limitation of short-read sequencing. Here, we generated a comprehensive full-length isoform annotation of human immune cells, Immune Isoform Atlas, by long-read sequencing for 29 cell subsets. Our atlas contained a number of unannotated transcripts and functional characteristics of transcripts including encoded domains, inserted repetitive elements, cell-type specific expression, and translational efficiency. Further, we identified a number of disease-associated isoforms by isoform-switch analysis and by integration of several quantitative trait loci analyses with genome-wide association study data. These results are open on [the web]().
 
 **Reference: Inamo J et al. Immune Isoform Atlas: Landscape of alternative splicing in human immune cells. (in preparation)**
 
@@ -49,7 +49,7 @@ Alternative splicing events are a major causal mechanism for complex traits, but
 - Integrated analysis of genetic and transcriptomic data with the atlas reveals unknown pathogenesis of diseases.
 
 ## How can users utilize Isoform Atlas?
-- [User-friendly web app is available](http://gfdweb.tmd.ac.jp:3838/)
+- [User-friendly web app is available]()
 - Users can remapping own RNA-seq datasets to Immune Isoform Atlas (isoform_atlas.gtf.gz, GRCh38) and investigate expression of isoforms in interested phenotypes.
 
 ## colum of "isoform_info.txt"
