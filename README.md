@@ -3,7 +3,7 @@
 
 Alternative splicing events are a major causal mechanism for complex traits, but they have been understudied due to the limitation of short-read sequencing. Here, we generated a comprehensive full-length isoform annotation of human immune cells, Immune Isoform Atlas, by long-read sequencing for 29 cell subsets. Our atlas contained a number of unannotated transcripts and functional characteristics of transcripts including encoded domains, inserted repetitive elements, cell-type specific expression, and translational efficiency. Further, we identified a number of disease-associated isoforms by isoform-switch analysis and by integration of several quantitative trait loci analyses with genome-wide association study data. These results are open on [the web]().
 
-**Reference: Inamo J et al. Immune Isoform Atlas: Landscape of alternative splicing in human immune cells. ([preprint]())**
+**Reference: Inamo J et al. Immune Isoform Atlas: Landscape of alternative splicing in human immune cells. ([preprint](https://www.biorxiv.org/content/10.1101/2022.09.13.507708v1))**
 
 ![image](./images/project_image.png)
 **Figure 1. Study design**
