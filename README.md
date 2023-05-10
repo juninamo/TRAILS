@@ -102,3 +102,5 @@ Alternative splicing events are a major causal mechanism for complex traits, but
 - cell_disease_sQTL: cell condition and phenotype of colocalization
 - coloc_3'aQTL: colocalization between 3'aQTL signal of the isoform and any of GWAS signal
 - cell_disease_3'aQTL: cell condition and phenotype of colocalization
+- male_PBMC: validated isoforms by PBMC sample (PromethION R10.4.1, V14 chemistry) from 40 y/o male 
+
