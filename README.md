@@ -9,7 +9,7 @@ Alternative splicing events are a major causal mechanism for complex traits, but
 **Figure 1. Study design**
 
 
-## sequenced cell-subsets
+## Sequenced cell-subsets
 |  Subset name  |  Abbreviation  |
 | :---: | :---: |
 |  Naïve CD4 T cells |  Naïve CD4  |
@@ -53,7 +53,18 @@ Alternative splicing events are a major causal mechanism for complex traits, but
 - [User-friendly web app is available]()
 - Users can remapping own RNA-seq datasets to Immune Isoform Atlas (isoform_atlas.gtf.gz, GRCh38) and investigate expression of isoforms in interested phenotypes.
 
-## colum of "isoform_info.txt"
+## Files
+- isoform_atlas.gtf.gz: GTF file of Immune Isoform Atlas.
+- isoform_info.txt.gz: Detailed information for each isoform in Immune Isoform Atlas.
+- male_PBMC.gtf.gz: GTF file of independent dataset by long-read RNA sequencing using the ONT platform (PromethION R10.4.1, V14 chemistry). We used this dataset to validate isoforms in Immune Isoform Atlas and investigate sex-differences.
+- IsoQuant.transcript_models.gtf.gz: GTF file using IsoQuant pipeline (Prjibelski, A.D., et al. Accurate isoform discovery with IsoQuant using long reads. Nat Biotechnol (2023).)
+- IsoQuant.transcript_models.extended_annotation.gtf.gz: GTF file using IsoQuant pipeline (Extended).
+- Espresso.gtf.gz: GTF file using ESPRESSO pipeline (without junction correction) (Gao Y, et al. ESPRESSO: Robust discovery and quantification of transcript isoforms from error-prone long-read RNA-seq data. Sci Adv. 2023 Jan 20;9(3):eabq5072.).
+- Espresso_SJ.gtf.gz: GTF file using ESPRESSO pipeline (with junction correction) 
+- code/: Source codes for each analysis.
+- Figures/: Source codes for generating figures in our paper.
+
+## Colums of "isoform_info.txt"
 - isoform: isoform ID
 - associated_gene: gene symbol
 - chrom: chrosome
@@ -103,4 +114,5 @@ Alternative splicing events are a major causal mechanism for complex traits, but
 - coloc_3'aQTL: colocalization between 3'aQTL signal of the isoform and any of GWAS signal
 - cell_disease_3'aQTL: cell condition and phenotype of colocalization
 - male_PBMC: validated isoforms by PBMC sample (PromethION R10.4.1, V14 chemistry) from 40 y/o male 
+
 
