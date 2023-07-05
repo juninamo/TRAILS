@@ -1,4 +1,6 @@
 # Immune Isoform Atlas
+[![DOI](https://zenodo.org/badge/518259643.svg)](https://zenodo.org/badge/latestdoi/518259643)
+
 ## Full-length transcript annotation focusing on human immune cells
 
 Alternative splicing events are a major causal mechanism for complex traits, but they have been understudied due to the limitation of short-read sequencing. Here, we generated a comprehensive full-length isoform annotation of human immune cells, Immune Isoform Atlas, by long-read sequencing for 29 cell subsets. Our atlas contained a number of unannotated transcripts and functional characteristics of transcripts including encoded domains, inserted repetitive elements, cell-type specific expression, and translational efficiency. Further, we identified a number of disease-associated isoforms by isoform-switch analysis and by integration of several quantitative trait loci analyses with genome-wide association study data. These results are open on [the web]() and the [genome browser](https://genome.ucsc.edu/s/juninamo/Immune%20Isoform%20Atlas).
