@@ -126,12 +126,12 @@ Jun Inamo, Akari Suzuki, Mahoko Ueda, Kensuke Yamaguchi, Hiroshi Nishida, Katsuy
 - male_PBMC: validated isoforms by PBMC sample (PromethION R10.4.1, V14 chemistry) from 40 y/o male 
 
 
-# Contact us
+## Contact us
 Please contact us (Jun Inamo: juninamo.gfd@mri.tmd.ac.jp) with any questions or comments.
 
 The data presented here comes from the laboratory of [Yuta Kochi](https://www.tmd.ac.jp/gfd/english/) through collaborating with the laboratory of [Yasushi Ishihama](https://www.pharm.kyoto-u.ac.jp/seizai/index_e.html), [RIKEN](https://www.riken.jp/en/), and [Keio University](https://www.keio.ac.jp/en/).
 
-# Acknowledgments
+## Acknowledgments
 Computations were partially performed on the NIG supercomputer at the ROIS National Institute of Genetics. This study was supported by (the Japan Society for the Promotion of Science)[https://www.jsps.go.jp/english/], [the MEXT of Japan](https://www.mext.go.jp/en/), and grants from [Nanken-Kyoten, TMDU](https://www.tmd.ac.jp/english/) and Medical Research Center Initiative for High Depth Omics.
 
 <kbd>
