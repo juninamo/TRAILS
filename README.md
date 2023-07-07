@@ -6,11 +6,18 @@
 
 Alternative splicing events are a major causal mechanism for complex traits, but they have been understudied due to the limitation of short-read sequencing. Here, we generated a comprehensive full-length isoform annotation of human immune cells, Immune Isoform Atlas, by long-read sequencing for 29 cell subsets. Our atlas contained a number of unannotated transcripts and functional characteristics of transcripts including encoded domains, inserted repetitive elements, cell-type specific expression, and translational efficiency. Further, we identified a number of disease-associated isoforms by isoform-switch analysis and by integration of several quantitative trait loci analyses with genome-wide association study data. These results are open on [the web]() and the [genome browser](https://genome.ucsc.edu/s/juninamo/Immune%20Isoform%20Atlas).
 
-**Reference: Inamo J et al. Immune Isoform Atlas: Landscape of alternative splicing in human immune cells. ([preprint](https://www.biorxiv.org/content/10.1101/2022.09.13.507708v1))**
+## Citation 
+Jun Inamo, Akari Suzuki, Mahoko Ueda, Kensuke Yamaguchi, Hiroshi Nishida, Katsuya Suzuki, Yuko Kaneko, Tsutomu Takeuchi, Yasushi Ishihama, Kazuhiko Yamamoto, Yuta Kochi. Immune Isoform Atlas: Landscape of alternative splicing in human immune cells. [*bioRxiv*](https://www.biorxiv.org/content/10.1101/2022.09.13.507708v1), doi:[10.1101/2023.07.03.547507](https://www.biorxiv.org/content/10.1101/2022.09.13.507708v1)
 
-![image](./images/project_image.png)
+<kbd>
+<img src="https://github.com/juninamo/isoform_atlas/tree/main/images/project_image.png" width="800" align="center">
+</kbd>
+
+&nbsp;&nbsp;
+
 **Figure 1. Study design**
 
+&nbsp;&nbsp;
 
 ## Sequenced cell-subsets
 |  Subset name  |  Abbreviation  |
@@ -53,7 +60,7 @@ Alternative splicing events are a major causal mechanism for complex traits, but
 - Integrated analysis of genetic and transcriptomic data with the atlas reveals unknown pathogenesis of diseases.
 
 ## How can users utilize Isoform Atlas?
-- [User-friendly web app is available]()
+- [User-friendly web app is available](http://gfdweb.tmd.ac.jp:3838/?)
 - Users can remapping own RNA-seq datasets to Immune Isoform Atlas (isoform_atlas.gtf.gz, GRCh38) and investigate expression of isoforms in interested phenotypes.
 
 ## Files
@@ -118,4 +125,18 @@ Alternative splicing events are a major causal mechanism for complex traits, but
 - cell_disease_3'aQTL: cell condition and phenotype of colocalization
 - male_PBMC: validated isoforms by PBMC sample (PromethION R10.4.1, V14 chemistry) from 40 y/o male 
 
+
+# Contact us
+Please contact us (Jun Inamo: juninamo.gfd@mri.tmd.ac.jp) with any questions or comments.
+
+The data presented here comes from the laboratory of [Yuta Kochi](https://www.tmd.ac.jp/gfd/english/) through collaborating with the laboratory of [Yasushi Ishihama](https://www.pharm.kyoto-u.ac.jp/seizai/index_e.html), [RIKEN](https://www.riken.jp/en/), and [Keio University](https://www.keio.ac.jp/en/).
+
+# Acknowledgments
+Computations were partially performed on the NIG supercomputer at the ROIS National Institute of Genetics. This study was supported by (the Japan Society for the Promotion of Science)[(https://www.jsps.go.jp/english/)], [the MEXT of Japan](https://www.mext.go.jp/en/), and grants from [Nanken-Kyoten, TMDU](https://www.tmd.ac.jp/english/) and Medical Research Center Initiative for High Depth Omics.
+
+<kbd>
+<img src="https://github.com/juninamo/isoform_atlas/tree/main/images/README_logo.png" width="800" align="center">
+</kbd>
+
+&nbsp;&nbsp;
 
