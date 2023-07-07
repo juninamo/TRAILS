@@ -132,7 +132,7 @@ Please contact us (Jun Inamo: juninamo.gfd@mri.tmd.ac.jp) with any questions or 
 The data presented here comes from the laboratory of [Yuta Kochi](https://www.tmd.ac.jp/gfd/english/) through collaborating with the laboratory of [Yasushi Ishihama](https://www.pharm.kyoto-u.ac.jp/seizai/index_e.html), [RIKEN](https://www.riken.jp/en/), and [Keio University](https://www.keio.ac.jp/en/).
 
 ## Acknowledgments
-Computations were partially performed on [the NIG supercomputer at the ROIS National Institute of Genetics](https://sc.ddbj.nig.ac.jp/en/). This study was supported by [the Japan Society for the Promotion of Science](https://www.jsps.go.jp/english/), [the MEXT of Japan](https://www.mext.go.jp/en/), and grants from [Nanken-Kyoten, TMDU](https://www.tmd.ac.jp/english/) and Medical Research Center Initiative for High Depth Omics.
+This study was supported by [the Japan Society for the Promotion of Science](https://www.jsps.go.jp/english/), [the MEXT of Japan](https://www.mext.go.jp/en/), and grants from [Nanken-Kyoten, TMDU](https://www.tmd.ac.jp/english/) and Medical Research Center Initiative for High Depth Omics. Computations were partially performed on [the NIG supercomputer at the ROIS National Institute of Genetics](https://www.tmd.ac.jp/english/gfd/). 
 
 <kbd>
 <img src="https://github.com/juninamo/isoform_atlas/blob/main/images/README_logo.png" width="800" align="center">
