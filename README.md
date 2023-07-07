@@ -10,7 +10,7 @@ Alternative splicing events are a major causal mechanism for complex traits, but
 Jun Inamo, Akari Suzuki, Mahoko Ueda, Kensuke Yamaguchi, Hiroshi Nishida, Katsuya Suzuki, Yuko Kaneko, Tsutomu Takeuchi, Yasushi Ishihama, Kazuhiko Yamamoto, Yuta Kochi. Immune Isoform Atlas: Landscape of alternative splicing in human immune cells. [*bioRxiv*](https://www.biorxiv.org/content/10.1101/2022.09.13.507708v1), doi:[10.1101/2023.07.03.547507](https://www.biorxiv.org/content/10.1101/2022.09.13.507708v1)
 
 <kbd>
-<img src="https://github.com/juninamo/isoform_atlas/tree/main/images/project_image.png" width="800" align="center">
+<img src="https://github.com/juninamo/isoform_atlas/blob/main/images/project_image.png" width="800" align="center">
 </kbd>
 
 &nbsp;&nbsp;
