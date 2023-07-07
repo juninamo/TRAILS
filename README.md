@@ -4,7 +4,7 @@
 
 ## Full-length transcript annotation focusing on human immune cells
 
-Alternative splicing events are a major causal mechanism for complex traits, but they have been understudied due to the limitation of short-read sequencing. Here, we generated a comprehensive full-length isoform annotation of human immune cells, Immune Isoform Atlas, by long-read sequencing for 29 cell subsets. Our atlas contained a number of unannotated transcripts and functional characteristics of transcripts including encoded domains, inserted repetitive elements, cell-type specific expression, and translational efficiency. Further, we identified a number of disease-associated isoforms by isoform-switch analysis and by integration of several quantitative trait loci analyses with genome-wide association study data. These results are open on [the web]() and the [genome browser](https://genome.ucsc.edu/s/juninamo/Immune%20Isoform%20Atlas).
+Alternative splicing events are a major causal mechanism for complex traits, but they have been understudied due to the limitation of short-read sequencing. Here, we generated a comprehensive full-length isoform annotation of human immune cells, Immune Isoform Atlas, by long-read sequencing for 29 cell subsets. Our atlas contained a number of unannotated transcripts and functional characteristics of transcripts including encoded domains, inserted repetitive elements, cell-type specific expression, and translational efficiency. Further, we identified a number of disease-associated isoforms by isoform-switch analysis and by integration of several quantitative trait loci analyses with genome-wide association study data. These results are open on [the web](http://gfdweb.tmd.ac.jp:3838/?) and the [genome browser](https://genome.ucsc.edu/s/juninamo/Immune%20Isoform%20Atlas).
 
 ## Citation 
 Jun Inamo, Akari Suzuki, Mahoko Ueda, Kensuke Yamaguchi, Hiroshi Nishida, Katsuya Suzuki, Yuko Kaneko, Tsutomu Takeuchi, Yasushi Ishihama, Kazuhiko Yamamoto, Yuta Kochi. Immune Isoform Atlas: Landscape of alternative splicing in human immune cells. [*bioRxiv*](https://www.biorxiv.org/content/10.1101/2022.09.13.507708v1), doi:[10.1101/2023.07.03.547507](https://www.biorxiv.org/content/10.1101/2022.09.13.507708v1)
@@ -135,7 +135,7 @@ The data presented here comes from the laboratory of [Yuta Kochi](https://www.tm
 Computations were partially performed on the NIG supercomputer at the ROIS National Institute of Genetics. This study was supported by (the Japan Society for the Promotion of Science)[(https://www.jsps.go.jp/english/)], [the MEXT of Japan](https://www.mext.go.jp/en/), and grants from [Nanken-Kyoten, TMDU](https://www.tmd.ac.jp/english/) and Medical Research Center Initiative for High Depth Omics.
 
 <kbd>
-<img src="https://github.com/juninamo/isoform_atlas/tree/main/images/README_logo.png" width="800" align="center">
+<img src="https://github.com/juninamo/isoform_atlas/blob/main/images/README_logo.png" width="800" align="center">
 </kbd>
 
 &nbsp;&nbsp;
