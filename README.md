@@ -1,5 +1,6 @@
 # Immune Isoform Atlas
 [![DOI](https://zenodo.org/badge/518259643.svg)](https://zenodo.org/badge/latestdoi/518259643)
+![](https://komarev.com/ghpvc/?username=juninamo&style=flat-square&color=green)
 
 ## Full-length transcript annotation focusing on human immune cells
 
