@@ -1,10 +1,12 @@
-# Immune Isoform Atlas
+# Transcriptomic Resource of Immune Cells using Long-read Sequencing (TRAILS)
+![image](https://github.com/juninamo/isoform_atlas/assets/42198577/eca60b0c-c9a8-4e55-a494-5ac68914541c)
+
 [![DOI](https://zenodo.org/badge/518259643.svg)](https://zenodo.org/badge/latestdoi/518259643)
 ![](https://komarev.com/ghpvc/?username=juninamo&style=flat-square&color=green&label=REPOSITORY+VIEWS)
 
 ## Full-length transcript annotation focusing on human immune cells
 
-Alternative splicing events are a major causal mechanism for complex traits, but they have been understudied due to the limitation of short-read sequencing. Here, we generated a comprehensive full-length isoform annotation of human immune cells, Immune Isoform Atlas, by long-read sequencing for 29 cell subsets. Our atlas contained a number of unannotated transcripts and functional characteristics of transcripts including encoded domains, inserted repetitive elements, cell-type specific expression, and translational efficiency. Further, we identified a number of disease-associated isoforms by isoform-switch analysis and by integration of several quantitative trait loci analyses with genome-wide association study data. These results are open on [the web](http://gfdweb.tmd.ac.jp:3838/?) and the [genome browser](https://genome.ucsc.edu/s/juninamo/Immune%20Isoform%20Atlas).
+Alternative splicing events are a major causal mechanism for complex traits, but they have been understudied due to the limitation of short-read sequencing. Here, we generated a full-length isoform annotation of human immune cells, TRAILS, by long-read sequencing for 29 cell subsets. TRAILS contained a number of unannotated transcripts and functional characteristics of transcripts including encoded domains, inserted repetitive elements, cell-type specific expression, and translational efficiency. Further, we identified a number of disease-associated isoforms by isoform-switch analysis and by integration of several quantitative trait loci analyses with genome-wide association study data. These results are open on [the web](http://gfdweb.tmd.ac.jp:3838/?) and the [genome browser](https://genome.ucsc.edu/s/juninamo/Immune%20Isoform%20Atlas).
 
 ## Citation 
 Jun Inamo, Akari Suzuki, Mahoko Ueda, Kensuke Yamaguchi, Hiroshi Nishida, Katsuya Suzuki, Yuko Kaneko, Tsutomu Takeuchi, Yasushi Ishihama, Kazuhiko Yamamoto, Yuta Kochi. Immune Isoform Atlas: Landscape of alternative splicing in human immune cells. [*bioRxiv*](https://www.biorxiv.org/content/10.1101/2022.09.13.507708v1), doi:[https://doi.org/10.1101/2022.09.13.507708](https://www.biorxiv.org/content/10.1101/2022.09.13.507708v1)
@@ -139,4 +141,3 @@ This study was supported by [the Japan Society for the Promotion of Science](htt
 </kbd>
 
 &nbsp;&nbsp;
-
