@@ -10,7 +10,7 @@ Alternative splicing events are a major causal mechanism for complex traits, but
 Jun Inamo, Akari Suzuki, Mahoko Ueda, Kensuke Yamaguchi, Hiroshi Nishida, Katsuya Suzuki, Yuko Kaneko, Tsutomu Takeuchi, Yasushi Ishihama, Kazuhiko Yamamoto, Yuta Kochi. Immune Isoform Atlas: Landscape of alternative splicing in human immune cells. [*bioRxiv*](https://www.biorxiv.org/content/10.1101/2022.09.13.507708v1), doi:[https://doi.org/10.1101/2022.09.13.507708](https://www.biorxiv.org/content/10.1101/2022.09.13.507708v1)
 
 <kbd>
-<img src="https://github.com/juninamo/isoform_atlas/blob/main/images/TRAILS_image.png" width="800" align="center">
+<img src="https://github.com/juninamo/TRAILS/blob/main/images/TRAILS_image.png" width="800" align="center">
 </kbd>
 
 &nbsp;&nbsp;
@@ -54,7 +54,7 @@ Jun Inamo, Akari Suzuki, Mahoko Ueda, Kensuke Yamaguchi, Hiroshi Nishida, Katsuy
 
 
 ## Highlights
-- An atlas of full-length isoforms for 29 immune cell types.
+- The database of full-length isoforms for 29 immune cell types.
 - Transposable elements comprise a major fraction of isoform diversity.
 - Alternative 3’UTR usage contributes to cell-type specific expression of isoforms.
 - Integrated analysis of genetic and transcriptomic data with the atlas reveals unknown pathogenesis of diseases.
