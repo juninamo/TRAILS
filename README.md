@@ -1,6 +1,4 @@
 # Transcriptomic Resource of Immune Cells using Long-read Sequencing (TRAILS)
-![image](https://github.com/juninamo/isoform_atlas/assets/42198577/eca60b0c-c9a8-4e55-a494-5ac68914541c)
-
 [![DOI](https://zenodo.org/badge/518259643.svg)](https://zenodo.org/badge/latestdoi/518259643)
 ![](https://komarev.com/ghpvc/?username=juninamo&style=flat-square&color=green&label=REPOSITORY+VIEWS)
 
