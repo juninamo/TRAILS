@@ -61,16 +61,18 @@ Jun Inamo, Akari Suzuki, Mahoko Ueda, Kensuke Yamaguchi, Hiroshi Nishida, Katsuy
 
 ## How can users utilize Isoform Atlas?
 - [User-friendly web app is available](http://gfdweb.tmd.ac.jp:3838/?)
-- Users can remapping own RNA-seq datasets to Immune Isoform Atlas (isoform_atlas.gtf.gz, GRCh38) and investigate expression of isoforms in interested phenotypes.
+- Users can remapping own RNA-seq datasets to TRAILS (isoform_atlas.gtf.gz, GRCh38) and investigate expression of isoforms in interested phenotypes.
 
 ## Files
-- isoform_atlas.gtf.gz: GTF file of Immune Isoform Atlas.
-- isoform_info.txt.gz: Detailed information for each isoform in Immune Isoform Atlas.
-- male_PBMC.gtf.gz: GTF file of independent dataset by long-read RNA sequencing using the ONT platform (PromethION R10.4.1, V14 chemistry). We used this dataset to validate isoforms in Immune Isoform Atlas and investigate sex-differences.
+- isoform_atlas.gtf.gz: GTF file of TRAILS.
+- isoform_info.txt.gz: Detailed information for each isoform in TRAILS.
+- male_PBMC.gtf.gz: GTF file of independent dataset by long-read RNA sequencing using the ONT platform (PromethION R10.4.1, V14 chemistry). We used this dataset to validate isoforms in TRAILS and investigate sex-differences.
+- Validated_TRAILS_by_PBMC.gtf.gz: GTF file of TRAILS validated by independent male PBMC
 - IsoQuant.transcript_models.gtf.gz: GTF file using IsoQuant pipeline (Prjibelski, A.D., et al. Accurate isoform discovery with IsoQuant using long reads. Nat Biotechnol (2023).)
 - IsoQuant.transcript_models.extended_annotation.gtf.gz: GTF file using IsoQuant pipeline (Extended).
 - Espresso.gtf.gz: GTF file using ESPRESSO pipeline (without junction correction) (Gao Y, et al. ESPRESSO: Robust discovery and quantification of transcript isoforms from error-prone long-read RNA-seq data. Sci Adv. 2023 Jan 20;9(3):eabq5072.).
 - Espresso_SJ.gtf.gz: GTF file using ESPRESSO pipeline (with junction correction) 
+
 - code/: Source codes for each analysis.
 - Figures/: Source codes for generating figures in our paper.
 
