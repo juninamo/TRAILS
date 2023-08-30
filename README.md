@@ -57,14 +57,14 @@ Jun Inamo, Akari Suzuki, Mahoko Ueda, Kensuke Yamaguchi, Hiroshi Nishida, Katsuy
 - The database of full-length isoforms for 29 immune cell types.
 - Transposable elements comprise a major fraction of isoform diversity.
 - Alternative 3’UTR usage contributes to cell-type specific expression of isoforms.
-- Integrated analysis of genetic and transcriptomic data with the atlas reveals unknown pathogenesis of diseases.
+- Integrated analysis of genetic and transcriptomic data with TRAILS reveals unknown pathogenesis of diseases.
 
-## How can users utilize Isoform Atlas?
+## How can users utilize TRAILS?
 - [User-friendly web app is available](http://gfdweb.tmd.ac.jp:3838/?)
-- Users can remapping own RNA-seq datasets to TRAILS (isoform_atlas.gtf.gz, GRCh38) and investigate expression of isoforms in interested phenotypes.
+- Users can remapping own RNA-seq datasets to TRAILS (TRAILS.gtf.gz, GRCh38) and investigate expression of isoforms in interested phenotypes.
 
 ## Files
-- isoform_atlas.gtf.gz: GTF file of TRAILS.
+- TRAILS.gtf.gz: GTF file of TRAILS.
 - isoform_info.txt.gz: Detailed information for each isoform in TRAILS.
 - male_PBMC.gtf.gz: GTF file of independent dataset by long-read RNA sequencing using the ONT platform (PromethION R10.4.1, V14 chemistry). We used this dataset to validate isoforms in TRAILS and investigate sex-differences.
 - Validated_TRAILS_by_PBMC.gtf.gz: GTF file of TRAILS validated by independent male PBMC
@@ -72,7 +72,6 @@ Jun Inamo, Akari Suzuki, Mahoko Ueda, Kensuke Yamaguchi, Hiroshi Nishida, Katsuy
 - IsoQuant.transcript_models.extended_annotation.gtf.gz: GTF file using IsoQuant pipeline (Extended).
 - Espresso.gtf.gz: GTF file using ESPRESSO pipeline (without junction correction) (Gao Y, et al. ESPRESSO: Robust discovery and quantification of transcript isoforms from error-prone long-read RNA-seq data. Sci Adv. 2023 Jan 20;9(3):eabq5072.).
 - Espresso_SJ.gtf.gz: GTF file using ESPRESSO pipeline (with junction correction) 
-
 - code/: Source codes for each analysis.
 - Figures/: Source codes for generating figures in our paper.
 
@@ -137,7 +136,7 @@ The data presented here comes from the laboratory of [Yuta Kochi](https://www.tm
 This study was supported by [the Japan Society for the Promotion of Science](https://www.jsps.go.jp/english/), [the MEXT of Japan](https://www.mext.go.jp/en/), and grants from [Nanken-Kyoten, TMDU](https://www.tmd.ac.jp/english/) and Medical Research Center Initiative for High Depth Omics. Computations were partially performed on [the NIG supercomputer at the ROIS National Institute of Genetics](https://www.tmd.ac.jp/english/gfd/). 
 
 <kbd>
-<img src="https://github.com/juninamo/isoform_atlas/blob/main/images/README_logo.png" width="800" align="center">
+<img src="https://github.com/juninamo/TRAILSs/blob/main/images/README_logo.png" width="800" align="center">
 </kbd>
 
 &nbsp;&nbsp;
